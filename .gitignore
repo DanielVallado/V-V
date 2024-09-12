@@ -1,0 +1,41 @@
+# Ignorar archivos y carpetas de Java - Spring Boot
+**/target/
+**/*.class
+**/*.jar
+**/*.war
+**/*.ear
+**/build/
+**/.settings/
+**/.idea/
+**/.classpath
+**/.project
+**/.mvn/
+**/mvnw
+**/mvnw.cmd
+
+# Archivos de configuración de IDE
+**/.vscode/
+**/.DS_Store
+
+# Ignorar archivos y carpetas de React
+**/node_modules/
+**/build/
+**/.env
+**/package-lock.json
+**/yarn.lock
+**/npm-debug.log
+**/yarn-error.log
+
+# Ignorar archivos del sistema
+**/Thumbs.db
+**/desktop.ini
+
+# Ignorar logs
+**/logs/
+*.log
+
+# Ignorar configuraciones específicas del entorno
+.env.local
+.env.development.local
+.env.test.local
+.env.production.local
